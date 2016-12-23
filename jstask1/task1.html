@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task1</title>
+</head>
+<body>
+<input id="i" type="text">
+<button type="button" onclick="clickButton()">点击显示</button>
+<span id="p">无</span>
+</body>
+<script type="text/javascript">
+    function clickButton(){
+        var inputText=document.getElementById("i").value;
+        alert(inputText);
+        document.getElementById("p").innerHTML=inputText;
+    }
+</script>
+</html>
