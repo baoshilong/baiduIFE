@@ -1,0 +1,27 @@
+#divMain div{
+    float:left;
+    color:white;
+    background-color: red;
+    font-size: 12px;
+    padding:5px;
+    border-right: 3px;
+
+
+}
+#divMain{
+    height: 24px;
+}
+#form>div{
+    float: left;
+    position: relative;
+    width: 20px;
+    height: 100px;
+    background-color: red;
+    margin-right:5px;
+
+}
+#form{
+    position: absolute;
+    height:101px;
+    overflow: hidden;
+}
