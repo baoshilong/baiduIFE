@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>div居中</title>
+</head>
+<body>
+    <div id="wapper">
+        <div id="top-left"></div>
+        <div id="top-right"></div>
+        <div id="bottom-left"></div>
+        <div id="bottom-right"></div>
+    </div>
+</body>
+</html>
+<style>
+    #wapper{
+        width: 400px;
+        height: 200px;
+        position: absolute;
+        left:50%;
+        right:50%;
+        top:50%;
+        bottom: 50%;
+        background-color: #ccc;
+        margin-top: -100px;
+        margin-left: -200px;
+    }
+    #top-left{
+         position: absolute;
+         left: 0px;
+         top: 0px;
+         width: 50px;
+         height:50px;
+         border-bottom-right-radius: 50px;
+     }
+    #top-right{
+        position: absolute;
+        right:0px;
+        top:0px;
+        width: 50px;
+        height:50px;
+        border-bottom-left-radius: 50px;
+    }
+
+    #bottom-left{
+        position: absolute;
+        bottom:0px;
+        left: 0px;
+        width: 50px;
+        height:50px;
+        border-top-right-radius: 50px;
+    }
+    #bottom-right{
+        position: absolute;
+        bottom:0px;
+        right:0px;
+        width: 50px;
+        height:50px;
+        border-top-left-radius: 50px;
+    }
+    div>div{
+        background-color: #fc0;;
+    }
+
+</style>
